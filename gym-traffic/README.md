@@ -14,4 +14,4 @@ pip install -e gym-basic
 Refer to https://towardsdatascience.com/beginners-guide-to-custom-environments-in-openai-s-gym-989371673952 for details.
 
 ## Jupyter Notebook
-An up-to-date jupyter notebook implementation is also included in this folder. Feel free to check it out.
+An up-to-date jupyter notebook implementation is also included in the main folder. Feel free to check it out.
