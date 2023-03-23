@@ -1,7 +1,15 @@
 # RL-Traffic-Dynamics
-This is the public code repo for the paper at ICRA 2023 London , "Learning to Influence Vehicles' Routing in Mixed-Autonomy Networks by Dynamically Controlling the Headway of Autonomous Cars", by Xiaoyu Ma and Prof. Negar Mehr from University of Illinois at Urbana-Champaign.
+
+[![License:
+ MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ 
+
 
 The repository include necessary files for running the RL_headway_dynamics project in the classic Braess network. A jupyter notebook is also included for demonstration purpose.
+
+## Overview
+This is the public code repo for the paper at ICRA 2023 London , [Learning to Influence Vehicles' Routing in Mixed-Autonomy Networks by Dynamically Controlling the Headway of Autonomous Cars](https://arxiv.org/abs/2303.04266), by Xiaoyu Ma and Prof. Negar Mehr from University of Illinois at Urbana-Champaign.
+
 
 
 ## Local Implementation
