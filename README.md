@@ -14,7 +14,7 @@ In this work, we propose that in mixed-autonomy networks, i.e., networks where r
 
 This code repo provided is developed as a custom environment on top of [OpenAI Gym](https://openai.com/research/openai-gym-beta). By defining the classic traffic network -- Braess network in the format of a gym env, we employed [Stable Baselines3](https://stable-baselines3.readthedocs.io/en/master/) to harness the power of Reinforcement Learning. The current implementation provides an one-on-one control scheme for each link in the classic Braess network. By learning a policy to generate varying headway for links, the resulted vehicle distribution across the network is very different from the one without controlling (constant headway), as shown below, where red links are more crowded and green links are less congested.
 
-Constant Headway           |  Varying Headway
+Constant Headway (without control)          |  Varying Headway (with control)
 :-------------------------:|:-------------------------:
 ![](/gitrepo_imgs/braess_constant_headway.gif)  |  ![](/gitrepo_imgs/braess_varying_headway.gif)
 
@@ -23,15 +23,15 @@ The repository include necessary files for running the RL_headway_dynamics proje
 
 ## Local Implementation
 
-```gym-traffic/gym_traffic/envs``` contains the defined traffic model
-
-
-run ```python3 gym-traffic/main.py``` for RL algorithms
+To use the code implementation locally, you need to setup a Linex system and install python3+. After that, use ```pip``` to install required packages before moving on to register our gym env. 
 
 ### Required packages
 torch, gym, stable_baselines3, wandb
 
+```gym-traffic/gym_traffic/envs``` contains the defined traffic model
+
 Please register the env file as a self-defined env in gym to utilize the code if only using the .py files for executing before running the runner.py
+
 
 ## Jupyter Notebook Implementation
 Without registering the env, you can run the notebook in any Linux environment or online server interface (Google CoLab for instance).
