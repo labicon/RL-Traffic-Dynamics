@@ -30,11 +30,12 @@ After that, run ```pip torch``` to install Torch. Similarly, use ```pip``` to in
 ### Required packages
 ```torch```, ```gym```, ```stable_baselines3```, ```wandb```
 
-```gym-traffic/gym_traffic/envs``` contains the defined traffic model
+
 
 ### Register the Env
 
-Please register the env file as a self-defined env in gym before running the ```runner.py```
+Please register the env file as a self-defined env in gym before running the ```runner.py```, ```gym-traffic/gym_traffic/envs``` contains the defined traffic model.
+
 Refer to [Registering Envs](https://www.gymlibrary.dev/content/environment_creation/) for how to register the custom environment.
 
 
