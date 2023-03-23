@@ -10,7 +10,9 @@ This is the public code repo for the paper at ICRA 2023 London , [Learning to In
 
 ![](gitrepo_imgs/dgm.PNG)
 
-
+Constant Headway           |  Varying Headway
+:-------------------------:|:-------------------------:
+![](/gitrepo_imgs/braess_constant_headway.gif)  |  ![](/gitrepo_imgs/braess_varying_headway.gif)
 
 <p float="left">
   <img src="/gitrepo_imgs/braess_constant_headway.gif" width="400" />
