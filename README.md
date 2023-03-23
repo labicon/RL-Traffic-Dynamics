@@ -23,15 +23,18 @@ The repository include necessary files for running the RL_headway_dynamics proje
 
 ## Local Implementation
 
-To use the code implementation locally, you need to setup a Linex system and install python3+. After that, use ```pip``` to install required packages before moving on to register our gym env. 
+The local copy of code is located in the ```gym_traffic``` folder. To use the code implementation locally, you need to setup a Linex system and install python 3.0+. 
+
+After that, run ```pip torch``` to install Torch. Similarly, use ```pip``` to install all required packages before moving on to register our gym env. 
 
 ### Required packages
-torch, gym, stable_baselines3, wandb
+```torch```, ```gym```, ```stable_baselines3```, ```wandb```
 
 ```gym-traffic/gym_traffic/envs``` contains the defined traffic model
 
-Please register the env file as a self-defined env in gym to utilize the code if only using the .py files for executing before running the runner.py
+Please register the env file as a self-defined env in gym before running the ```runner.py```
+Refer to [Registering Envs](https://www.gymlibrary.dev/content/environment_creation/) for how to register the custom environment.
 
 
 ## Jupyter Notebook Implementation
-Without registering the env, you can run the notebook in any Linux environment or online server interface (Google CoLab for instance).
+If you are only planning to use the Jupyter Notebook implementation, simply download the notebook. Without registering the env, you can run the notebook in any Linux environment or online server interface (Google CoLab for instance).
