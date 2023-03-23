@@ -12,6 +12,11 @@ This is the public code repo for the paper at ICRA 2023 London , [Learning to In
 
 ![](gitrepo_imgs/braess_constant_headway.gif "constant") ![](gitrepo_imgs/braess_varying_headway.gif "varying")
 
+<p float="left">
+  <img src="/gitrepo_imgs/braess_constant_headway.gif" width="100" />
+  <img src="/gitrepo_imgs/braess_varying_headway.gif" width="100" /> 
+</p>
+
 The repository include necessary files for running the RL_headway_dynamics project in the classic Braess network. A jupyter notebook is also included for demonstration purpose.
 
 ## Local Implementation
